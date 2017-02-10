@@ -1,0 +1,21 @@
+#!/bin/bash
+
+set -e
+
+cd /opt/
+
+## Extract the package
+sudo tar xf /opt/ideaIU-*
+
+## Rename the directory
+sudo mv /opt/idea-IU-* /opt/intellij-idea-ultimate
+
+## Remove  the tar.gz package
+sudo rm /opt/ideaIU-*
+
+## Install the .desktop file, if necessary
+if [ -x "/usr/bin/desktop-file-install" ]; then
+    sudo desktop-file-install /usr/share/applications/intellij-idea-ultimate.desktop
+fi
+
+##DEBHELPER##

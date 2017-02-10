@@ -1,0 +1,13 @@
+Source: intellij-idea-ultimate
+Section: devel
+Priority: optional
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.8
+
+
+Package: intellij-idea-ultimate
+Architecture: all
+Depends: ${misc:Depends}, lib32ncurses5 | libncurses5, default-jdk | oracle-java7-installer | oracle-java8-installer, libc6-i386, lib32stdc++6, lib32gcc1, lib32ncurses5, lib32z1, lib32z1-dev, unzip
+Description: IntelliJ IDEA Ultimate Edition
+ A intelligent Java IDE by JetBrains
