@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -e
+
+cd /opt/
+
+## Download IntelliJ IDEA Community from the jetbrain servers
+wget http://download-cf.jetbrains.com/idea/ideaIU-2017.1.tar.gz
+
+##

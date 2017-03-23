@@ -1,7 +1,7 @@
 # intellij-idea-ultimate
 .deb Packages of IntelliJ IDEA Ultimate Edition for Ubuntu / Debian
 
-The latest upstream version is 2016.3.4 which is included in the package version 2016.3.4.
+The latest upstream version is 2017.1 which is included in the package version 2017.1.
 
 ## Adding the PPA
 
