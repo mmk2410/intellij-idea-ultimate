@@ -1,20 +1,20 @@
  dpkg-buildpackage -rfakeroot -D -us -uc
 dpkg-buildpackage: info: source package intellij-idea-ultimate
-dpkg-buildpackage: info: source version 2016.3.4-1
+dpkg-buildpackage: info: source version 2017.1-1
 dpkg-buildpackage: info: source distribution yakkety
-dpkg-buildpackage: info: source changed by Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
- dpkg-source --before-build intellij-idea-ultimate_2016.3.4
+dpkg-buildpackage: info: source changed by Rienk Prinsen (rprinsen) <r.prinsen@gmail.com>
+ dpkg-source --before-build intellij-idea-ultimate_2017.1
 dpkg-buildpackage: info: host architecture amd64
  fakeroot debian/rules clean
 dh clean
    dh_testdir
    dh_auto_clean
    dh_clean
- dpkg-source -b intellij-idea-ultimate_2016.3.4
+ dpkg-source -b intellij-idea-ultimate_2017.1
 dpkg-source: info: using source format '3.0 (quilt)'
-dpkg-source: info: building intellij-idea-ultimate using existing ./intellij-idea-ultimate_2016.3.4.orig.tar.gz
-dpkg-source: info: building intellij-idea-ultimate in intellij-idea-ultimate_2016.3.4-1.debian.tar.xz
-dpkg-source: info: building intellij-idea-ultimate in intellij-idea-ultimate_2016.3.4-1.dsc
+dpkg-source: info: building intellij-idea-ultimate using existing ./intellij-idea-ultimate_2017.1.orig.tar.gz
+dpkg-source: info: building intellij-idea-ultimate in intellij-idea-ultimate_2017.1-1.debian.tar.xz
+dpkg-source: info: building intellij-idea-ultimate in intellij-idea-ultimate_2017.1-1.dsc
  debian/rules build
 dh build
    dh_testdir
@@ -40,10 +40,10 @@ dh binary
    dh_gencontrol
    dh_md5sums
    dh_builddeb
-dpkg-deb: building package 'intellij-idea-ultimate' in '../intellij-idea-ultimate_2016.3.4-1_all.deb'.
- dpkg-genchanges  >../intellij-idea-ultimate_2016.3.4-1_amd64.changes
+dpkg-deb: building package 'intellij-idea-ultimate' in '../intellij-idea-ultimate_2017.1-1_all.deb'.
+ dpkg-genchanges  >../intellij-idea-ultimate_2017.1-1_amd64.changes
 dpkg-genchanges: info: including full source code in upload
- dpkg-source --after-build intellij-idea-ultimate_2016.3.4
+ dpkg-source --after-build intellij-idea-ultimate_2017.1
 dpkg-buildpackage: info: full upload (original source is included)
 Now running lintian...
 W: intellij-idea-ultimate: new-package-should-close-itp-bug
