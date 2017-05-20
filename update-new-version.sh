@@ -10,8 +10,8 @@ function main {
 
     git checkout -b version-$new
 
-    mv intellij-idea-ultimate{$old,$new}
-    mv intellij-idea-ultimate-{$old,$new}.orig.tar.gz
+    mv intellij-idea-ultimate_{$old,$new}
+    mv intellij-idea-ultimate_{$old,$new}.orig.tar.gz
 
     echo "intellij-idea-ultimate ($new-1) yakkety; urgency=low
 
