@@ -1,8 +1,14 @@
+intellij-idea-ultimate (2017.1.4-1) yakkety; urgency=low
+
+  * Upstream Version 2017.1.4
+
+ -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@gmail.com>  Thu, 08 Jun 2017 11:18:29 +0200
+ 
 intellij-idea-ultimate (2017.1.3-1) yakkety; urgency=low
 
   * Upstream Version 2017.1.3
 
- -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@gmail.com> Sat, 20 May 2017 11:12:14 +0200
+ -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@gmail.com>  Sat, 20 May 2017 11:12:14 +0200
  
 intellij-idea-ultimate (2017.1.2-1) zesty; urgency=low
 
