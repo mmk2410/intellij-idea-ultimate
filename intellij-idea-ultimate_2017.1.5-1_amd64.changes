@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 12 Jul 2017 19:18:35 +0200
+Source: intellij-idea-ultimate
+Binary: intellij-idea-ultimate
+Architecture: source all
+Version: 2017.1.5-1
+Distribution: yakkety
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Kapfer (mmk2410) <marcelmichaelkapfer@gmail.com>
+Description:
+ intellij-idea-ultimate - IntelliJ IDEA Ultimate Edition
+Changes:
+ intellij-idea-ultimate (2017.1.5-1) yakkety; urgency=low
+ .
+   * Upstream Version 2017.1.5
+Checksums-Sha1:
+ 3be42fab01235e5c801091af31fca78d3133e1a2 948 intellij-idea-ultimate_2017.1.5-1.dsc
+ e44d4de41689e38b8d817442e2bae79b6c69c5e9 5674 intellij-idea-ultimate_2017.1.5.orig.tar.gz
+ c72942f220d51ee637e2afd68dcf53375e462e66 9276 intellij-idea-ultimate_2017.1.5-1.debian.tar.xz
+ 23f265e32e49306fe35718dd788dac485f0fd7db 15424 intellij-idea-ultimate_2017.1.5-1_all.deb
+Checksums-Sha256:
+ f3aec42023fad814017a19530b7d3ac1ed8d1568f054398382ad5d24c96fab60 948 intellij-idea-ultimate_2017.1.5-1.dsc
+ 288e100b8868689892055bc4db32a47e18c4e1c2066dc454609f6697f569a1ff 5674 intellij-idea-ultimate_2017.1.5.orig.tar.gz
+ 8042d3261b759564146922cccb8791bf73af70cb718eb2b05e566f258c97a0a3 9276 intellij-idea-ultimate_2017.1.5-1.debian.tar.xz
+ 839d8fb3cc72516c0dcca381b178876805b90654c69d158ef076e1084bd70015 15424 intellij-idea-ultimate_2017.1.5-1_all.deb
+Files:
+ 705bfb1b893656b99153697074d364f8 948 devel optional intellij-idea-ultimate_2017.1.5-1.dsc
+ cc13278c6f1ce3f252344f504119a3f5 5674 devel optional intellij-idea-ultimate_2017.1.5.orig.tar.gz
+ 26ff8e0f7cfbe253c70e9f997de80a03 9276 devel optional intellij-idea-ultimate_2017.1.5-1.debian.tar.xz
+ bff0f5be92e86c2aaf3c9773b2ac3d90 15424 devel optional intellij-idea-ultimate_2017.1.5-1_all.deb
