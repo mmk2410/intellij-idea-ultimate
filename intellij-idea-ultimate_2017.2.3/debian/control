@@ -1,9 +1,9 @@
 Source: intellij-idea-ultimate
 Section: devel
 Priority: optional
-Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Maintainer: Marcel Kapfer <opensource@mmk2410.org>
 Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 
 
 Package: intellij-idea-ultimate

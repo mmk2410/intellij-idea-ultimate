@@ -13,11 +13,11 @@ function main {
     mv intellij-idea-ultimate_{$old,$new}
     mv intellij-idea-ultimate_{$old,$new}.orig.tar.gz
 
-    echo "intellij-idea-ultimate ($new-1) yakkety; urgency=low
+    echo "intellij-idea-ultimate ($new-1) artful; urgency=low
 
   * Upstream Version $new
 
- -- $author ($username) <$email> $now
+ -- $author ($username) <$email>  $now
  " >> $tempfile
 
     cat intellij-idea-ultimate_$new/debian/changelog >> $tempfile

@@ -1,0 +1,4 @@
+ dpkg-buildpackage -rfakeroot -us -uc -S9FE01C39F74551D434116394CADE6F0C09F21B09
+dpkg-buildpackage: error: unknown option or argument -S9FE01C39F74551D434116394CADE6F0C09F21B09
+
+Use --help for program usage information.

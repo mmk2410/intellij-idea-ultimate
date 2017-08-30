@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 31 Aug 2017 00:52:24 +0200
+Source: intellij-idea-ultimate
+Binary: intellij-idea-ultimate
+Architecture: source all
+Version: 2017.2.3-1
+Distribution: artful
+Urgency: low
+Maintainer: Marcel Kapfer <opensource@mmk2410.org>
+Changed-By: Marcel Kapfer (mmk2410) <opensource@mmk2410.org>
+Description:
+ intellij-idea-ultimate - IntelliJ IDEA Ultimate Edition
+Changes:
+ intellij-idea-ultimate (2017.2.3-1) artful; urgency=low
+ .
+   * Upstream Version 2017.2.3
+Checksums-Sha1:
+ ac1c9088736d2e72793de5b564b23b27053adc4f 931 intellij-idea-ultimate_2017.2.3-1.dsc
+ e44d4de41689e38b8d817442e2bae79b6c69c5e9 5674 intellij-idea-ultimate_2017.2.3.orig.tar.gz
+ aa898e44bf5ef4bae7a5707c2bff53cc488e67ad 9308 intellij-idea-ultimate_2017.2.3-1.debian.tar.xz
+ 130ad0e926c93a0b4ecbf28d722c0e5c64128e5e 15466 intellij-idea-ultimate_2017.2.3-1_all.deb
+ 2d81a8ce4a69653990fdf5257329d53f6511b7e7 5225 intellij-idea-ultimate_2017.2.3-1_amd64.buildinfo
+Checksums-Sha256:
+ 42348548eeeaddd14dfcd45deebf17231de1df436fa65cab54532d68fa1904ad 931 intellij-idea-ultimate_2017.2.3-1.dsc
+ 288e100b8868689892055bc4db32a47e18c4e1c2066dc454609f6697f569a1ff 5674 intellij-idea-ultimate_2017.2.3.orig.tar.gz
+ 490d886c1369438686830510d611d17affc3d7dbd35f9151af5bb962056354c9 9308 intellij-idea-ultimate_2017.2.3-1.debian.tar.xz
+ e321da2081068798bffb640ac62bc8e698babf0d74a9017e366e1a4f472f4228 15466 intellij-idea-ultimate_2017.2.3-1_all.deb
+ 5b8d2831c8080c12146d9e03965123c061e5474410abfcbd22b01f48806be927 5225 intellij-idea-ultimate_2017.2.3-1_amd64.buildinfo
+Files:
+ 35da8ff36cec638407193e1263c22827 931 devel optional intellij-idea-ultimate_2017.2.3-1.dsc
+ cc13278c6f1ce3f252344f504119a3f5 5674 devel optional intellij-idea-ultimate_2017.2.3.orig.tar.gz
+ e6869ee9ec1ce2928711c30cea46f0e5 9308 devel optional intellij-idea-ultimate_2017.2.3-1.debian.tar.xz
+ b42fc504f62eb7b73af98492b1736755 15466 devel optional intellij-idea-ultimate_2017.2.3-1_all.deb
+ 9cefd28ac598fec2815ed5d7c37c7ab5 5225 devel optional intellij-idea-ultimate_2017.2.3-1_amd64.buildinfo
