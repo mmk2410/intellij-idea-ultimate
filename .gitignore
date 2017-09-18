@@ -1,1 +1,10 @@
 *_source.*
+*.debian.tar.xz
+*.dsc
+*.build
+*.buildinfo
+*.changes
+**/debian/files
+**/debian/.debhelper/
+**/debian/intellij-idea-ultimate/
+**/debian/intellij-idea-ultimate.*
