@@ -11,6 +11,10 @@ sudo apt-get update
 sudo apt-get install intellij-idea-ultimate
 ```
 
+## Report issues
+
+Please report any issues at [phab.mmk2410.org](https://phab.mmk2410.org/maniphest/task/edit/form/3/). The current issues are also listed [there](https://phab.mmk2410.org/maniphest/query/J9cHtqRh7M5n/).
+
 ## Updating the package
 
 To update the version follow the following steps (the old version is here 15.0.1 and the new one 15.0.2):
@@ -89,6 +93,6 @@ To update the version follow the following steps (the old version is here 15.0.1
  16. Create new pull request
 
 
-## Setting up the build environment
+### Setting up the build environment
 
 Run `sudo apt install build-dep debhelper`.
