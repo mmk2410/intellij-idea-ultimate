@@ -13,7 +13,7 @@ sudo apt-get install intellij-idea-ultimate
 
 ## Report issues
 
-Please report any issues at [phab.mmk2410.org](https://phab.mmk2410.org/maniphest/task/edit/form/3/). The current issues are also listed [there](https://phab.mmk2410.org/maniphest/query/J9cHtqRh7M5n/).
+You can report issues, questions or feedback here on GitLab. Please include which version your using.
 
 ## Updating the package
 
