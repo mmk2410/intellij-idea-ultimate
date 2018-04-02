@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2018.1-1) artful; urgency=medium
+
+  * Upstream version 2018.1
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Mon, 02 Apr 2018 08:52:53 +0200
+
 intellij-idea-ultimate (2017.3.5-1) artful; urgency=low
 
   * Upstream Version 2017.3.5
