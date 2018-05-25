@@ -1,8 +1,8 @@
-intellij-idea-ultimate (2018.1.4-1) artful; urgency=low
+intellij-idea-ultimate (2018.1.4-1) bionic; urgency=low
 
   * Upstream version 2018.1.4
 
- -- Matthias Hellriegel <soschouk@gmx.net>  Mon, 25 May 2018 08:00:00 +0200
+ -- Matthias Hellriegel <soschouk@gmx.net>  Fri, 25 May 2018 08:00:00 +0200
 
 intellij-idea-ultimate (2018.1-1) artful; urgency=medium
 
@@ -15,13 +15,13 @@ intellij-idea-ultimate (2017.3.5-1) artful; urgency=low
   * Upstream Version 2017.3.5
 
  -- Marcel Kapfer (mmk2410) <opensource@mmk2410.org>  Tue, 13 Mar 2018 19:01:27 +0100
- 
+
 intellij-idea-ultimate (2017.3.4-1) artful; urgency=low
 
   * Upstream Version 2017.3.4
 
  -- Marcel Kapfer (mmk2410) <opensource@mmk2410.org>  Wed, 31 Jan 2018 11:52:44 +0000
- 
+
 intellij-idea-ultimate (2017.3.3-1) artful; urgency=low
 
   * Upstream Version 2017.3.3
