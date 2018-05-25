@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2018.1.4-1) artful; urgency=low
+
+  * Upstream version 2018.1.4
+
+ -- Matthias Hellriegel <soschouk@gmx.net>  Mon, 25 May 2018 08:00:00 +0200
+
 intellij-idea-ultimate (2018.1-1) artful; urgency=medium
 
   * Upstream version 2018.1
