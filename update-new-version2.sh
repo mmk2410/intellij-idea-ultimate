@@ -5,7 +5,7 @@
 # The script intends to decrease the effort of updating the package.
 
 PACKAGE="intellij-idea-ultimate"
-DISTRIBUTION="artful"
+DISTRIBUTION="bionic"
 
 main() {
     old="$1"
