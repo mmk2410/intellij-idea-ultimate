@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2018.2.3-1) bionic; urgency=medium
+
+  * Upstream version 2018.2.3
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Tue, 04 Sep 2018 16:45:56 +0000
+
 intellij-idea-ultimate (2018.2.2-1) bionic; urgency=medium
 
   * Upstream version 2018.2.2
