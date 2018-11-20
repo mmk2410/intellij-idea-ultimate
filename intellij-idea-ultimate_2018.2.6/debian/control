@@ -1,0 +1,24 @@
+Source: intellij-idea-ultimate
+Section: devel
+Priority: optional
+Maintainer: Marcel Kapfer <opensource@mmk2410.org>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 4.2.1
+
+Package: intellij-idea-ultimate
+Architecture: all
+Pre-Depends: wget,
+	     unzip
+Depends: libxrender1,
+	 libxtst6,
+	 libxi6,
+	 libfreetype6,
+	  ${misc:Depends},
+Recommends: default-jdk
+Suggests: git
+Description: IntelliJ IDEA Ultimate Edition
+ Every aspect of IntelliJ IDEA is specifically designed to maximize developer
+ productivity.
+ .
+ Together, the powerful static code analysis and ergonomic design make
+ development not only productive but also an enjoyable experience.

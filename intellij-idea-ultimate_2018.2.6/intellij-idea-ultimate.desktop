@@ -6,4 +6,5 @@ Icon=intellij-idea-ue
 Terminal=false
 Type=Application
 Categories=Development;IDE;Java;
+Keywords=intellij;idea;ultimate;java;ide
 StartupWMClass=jetbrains-idea
