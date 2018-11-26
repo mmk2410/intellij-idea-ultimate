@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2018.3-1) cosmic; urgency=medium
+
+  * Upstream version 2018.3
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Sun, 25 Nov 2018 22:24:32 +0000
+
 intellij-idea-ultimate (2018.2.6-1) cosmic; urgency=medium
 
   * Upstream version 2018.2.6

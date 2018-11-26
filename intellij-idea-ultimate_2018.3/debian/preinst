@@ -5,6 +5,6 @@ set -e
 cd /opt/
 
 ## Download IntelliJ IDEA Community from the jetbrain servers
-wget -c https://download-cf.jetbrains.com/idea/ideaIU-2018.2.6.tar.gz
+wget -c https://download-cf.jetbrains.com/idea/ideaIU-2018.3.tar.gz
 
 ##DEBHELPER##
