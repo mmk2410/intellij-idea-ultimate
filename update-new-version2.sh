@@ -32,7 +32,7 @@ main() {
 
     cd ..
 
-    rm -rf "$PACKAGE"_"$old"*
+    rm -rf "$PACKAGE"_"$old"-*
 
     # disabled until it is only called with an specific argument
     # sudo dpkg -i "$PACKAGE"_"$new"-1_all.deb
