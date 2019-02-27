@@ -1,4 +1,4 @@
-Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Marcel Kapfer (mmk2410) <opensource@mmk2410.org>
 Bart de Koning <bartdaking@gmail.com>
 Francesco Levorato (flevour) <git@flevour.net>
 Andy Balaam (andybalaam) <mail@artificialworlds.net>
