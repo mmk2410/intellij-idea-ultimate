@@ -1,37 +1,39 @@
-#!/bin/bash
-function main {
-    local old=$1
-    local new=$2
-    local now=`date -R`
-    local author=`git config --get user.name`
-    local email=`git config --get user.email`
-    local username=`git config --get remote.origin.url | sed 's,.*:\(.*\)/.*,\1,'`
-    local tempfile=`tempfile`
+#!/bin/sh
 
-    git checkout -b version-$new
+# This script intends to decrease the effort of updating the package.
 
-    mv intellij-idea-ultimate_{$old,$new}
-    mv intellij-idea-ultimate_{$old,$new}.orig.tar.gz
+PACKAGE="intellij-idea-ultimate"
+DISTRIBUTION="disco"
 
-    echo "intellij-idea-ultimate ($new-1) artful; urgency=low
+main() {
+    old="$1"
+    new="$2"
+    name="$(git config --get user.name)"
+    email="$(git config --get user.email)"
 
-  * Upstream Version $new
+    git checkout -b version-"$new"
 
- -- $author ($username) <$email>  $now
- " >> $tempfile
+    mv "$PACKAGE"_"$old" "$PACKAGE"_"$new"
+    mv "$PACKAGE"_"$old".orig.tar.gz "$PACKAGE"_"$new".orig.tar.gz
 
-    cat intellij-idea-ultimate_$new/debian/changelog >> $tempfile
-    mv $tempfile intellij-idea-ultimate_$new/debian/changelog
+    cd "$PACKAGE"_"$new" || exit
 
-    sed -i "s/$old/$new/g" intellij-idea-ultimate_$new/debian/preinst
+    # Update the debian/changelog file with dch
+    NAME="$name" EMAIL="$email" dch \
+	--newversion "$new"-1 \
+	--distribution "$DISTRIBUTION" \
+	"Upstream version $new"
 
-    (cd intellij-idea-ultimate_$new/ && debuild -us -uc )
+    sed -i "s/$old/$new/g" ./debian/preinst
 
-    rm intellij-idea-ultimate_${old}*
+    debuild -us -uc
 
-    sudo dpkg -i intellij-idea-ultimate_$new-1_all.deb
+    cd ..
+
+    rm -rf "$PACKAGE"_"$old"-*
+
+    # disabled until it is only called with an specific argument
+    # sudo dpkg -i "$PACKAGE"_"$new"-1_all.deb
 }
 
-
-
-main $1 $2
+main "$1" "$2"
