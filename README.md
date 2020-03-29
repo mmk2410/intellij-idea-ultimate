@@ -92,6 +92,11 @@ To update the version follow the following steps (the old version is here 15.0.1
 
  16. Create new pull request
 
+### Automatically do steps 2 to 12
+
+Run `./update-new-version.sh "$new-version"`
+
+Where `$new-version` is in the format `[year].[major].[minor]`.
 
 ### Setting up the build environment
 

@@ -6,8 +6,9 @@ PACKAGE="intellij-idea-ultimate"
 DISTRIBUTION="disco"
 
 main() {
-    old="$1"
-    new="$2"
+    last_tag=$(git describe --abbrev=0 --tags)
+    old="${last_tag#?}"
+    new="$1"
     name="$(git config --get user.name)"
     email="$(git config --get user.email)"
 
@@ -36,4 +37,4 @@ main() {
     # sudo dpkg -i "$PACKAGE"_"$new"-1_all.deb
 }
 
-main "$1" "$2"
+main "$1"
