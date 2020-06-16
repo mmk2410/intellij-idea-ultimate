@@ -1,3 +1,13 @@
+intellij-idea-ultimate (2020.1.2-1) focal; urgency=medium
+
+  * IntelliJ IDEA 2020.1 adds support for Java 14 and new features for a 
+    number of frameworks, upgrades the debugger with dataflow analysis
+    assistance, adds a new LightEdit mode, downloads and configures
+    the JDK for you, and does so much more!
+    - https://www.jetbrains.com/idea/whatsnew/
+
+ -- Lucas Souza <lucasouliveira@gmail.com>  Tue, 16 Jun 2020 01:17:31 +0000
+
 intellij-idea-ultimate (2019.3.4-1) eoan; urgency=medium
 
   * Upstream version 2019.3.4
