@@ -1,9 +1,10 @@
 # intellij-idea-ultimate
-.deb Packages of IntelliJ IDEA Ultimate Edition for Ubuntu / Debian
 
-The latest upstream version is 2018.1.4 which is included in the package version 2018.1.4
+.deb Packages of IntelliJ IDEA Ultimate Edition for Ubuntu / Debian.
 
-## Adding the PPA
+I also provide a package for the [Community Edition](https://gitlab.com/mmk2410/intellij-idea-community).
+
+## Adding the PPA (on Ubuntu)
 
 ```
 sudo apt-add-repository ppa:mmk2410/intellij-idea
@@ -13,9 +14,25 @@ sudo apt-get install intellij-idea-ultimate
 
 ## Report issues
 
-You can report issues, questions or feedback here on GitLab. Please include which version your using.
+You can report issues, questions or feedback concerning the package here on GitLab. Please include which version your using.
 
 ## Updating the package
+
+To update the package the first you need to do is to set up your build environment. After that there are two ways: an automated way (which is highly preferred) and a manual way.
+
+### Setting up the build environment
+
+Run `sudo apt install build-dep debhelper`.
+
+It is also necessary to setup Git with your username and email address as explained in numerous tutorials.
+
+### The automated way
+
+Run `./update-new-version.sh "$new-version"`
+
+Where `$new-version` is in the format `[year].[major].[minor]`.
+
+### The manual way
 
 To update the version follow the following steps (the old version is here 15.0.1 and the new one 15.0.2):
 
@@ -91,13 +108,3 @@ To update the version follow the following steps (the old version is here 15.0.1
  ```
 
  16. Create new pull request
-
-### Automatically do steps 2 to 12
-
-Run `./update-new-version.sh "$new-version"`
-
-Where `$new-version` is in the format `[year].[major].[minor]`.
-
-### Setting up the build environment
-
-Run `sudo apt install build-dep debhelper`.
