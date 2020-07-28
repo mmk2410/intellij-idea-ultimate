@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2020.2-1) focal; urgency=medium
+
+  * Upstream version 2020.2
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Tue, 28 Jul 2020 19:51:52 +0200
+
 intellij-idea-ultimate (2020.1.4-1) focal; urgency=medium
 
   * Upstream version 2020.1.4
