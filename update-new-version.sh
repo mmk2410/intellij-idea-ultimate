@@ -3,7 +3,7 @@
 # This script intends to decrease the effort of updating the package.
 
 PACKAGE="intellij-idea-ultimate"
-DISTRIBUTION="focal"
+DISTRIBUTION="groovy"
 
 main() {
     last_tag=$(git describe --abbrev=0 --tags)
