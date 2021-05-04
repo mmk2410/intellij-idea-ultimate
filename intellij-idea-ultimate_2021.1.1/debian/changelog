@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2021.1.1-1) groovy; urgency=medium
+
+  * Upstream version 2021.1.1
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Tue, 04 May 2021 17:43:18 +0000
+
 intellij-idea-ultimate (2021.1-1) groovy; urgency=medium
 
   * Upstream version 2021.1
