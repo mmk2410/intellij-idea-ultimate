@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2021.1.2-1) hirsute; urgency=medium
+
+  * Upstream version 2021.1.2
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Fri, 11 Jun 2021 13:57:02 +0000
+
 intellij-idea-ultimate (2021.1.1-1) groovy; urgency=medium
 
   * Upstream version 2021.1.1
