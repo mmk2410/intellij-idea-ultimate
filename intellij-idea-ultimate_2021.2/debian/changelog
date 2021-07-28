@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2021.2-1) hirsute; urgency=medium
+
+  * Upstream version 2021.2
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Wed, 28 Jul 2021 06:00:32 +0000
+
 intellij-idea-ultimate (2021.1.3-1) hirsute; urgency=medium
 
   * Upstream version 2021.1.3
