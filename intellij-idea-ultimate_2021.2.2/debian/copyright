@@ -80,14 +80,14 @@ License: custom
   3.1. The Product is licensed on a per-seat basis. If Licensee complies with terms of this Agreement, Licensee has the rights identified below in this section for each Toolbox Subscription that Licensee acquires.
   .
   3.2. Unless the Toolbox Subscription is expired or this Agreement is terminated in accordance with Section 12, and subject to the terms and conditions specified herein, JetBrains grants Licensee a limited, non-exclusive and non-transferable license to use each Product covered by Toolbox Subscription as follows:
-  	(A) Licensee may:
-  		(i) Install and use any version of the Product covered by Toolbox Subscription on any number of Clients and on any operating system supported by the Product;
-  		(ii) Make one backup copy of the Product solely for archival purposes.
-  	(B) Licensee may not:
-  		(i) Allow the same Toolbox Subscription to be used concurrently by more than one (1) User.
-  		(ii) Rent, lease, reproduce, modify, adapt, create derivative works of, distribute, sell, sublicense or transfer the Product, or provide access to the Product or Licensee’s JetBrains Account to a third party;
-  		(iii) Reverse-engineer, decompile, disassemble, modify, or translate the Product, or make any attempt to discover the source code of the Product;
-  		(iv) Remove or obscure any proprietary or other notices contained in the Product.
+     (A) Licensee may:
+        (i) Install and use any version of the Product covered by Toolbox Subscription on any number of Clients and on any operating system supported by the Product;
+        (ii) Make one backup copy of the Product solely for archival purposes.
+     (B) Licensee may not:
+        (i) Allow the same Toolbox Subscription to be used concurrently by more than one (1) User.
+        (ii) Rent, lease, reproduce, modify, adapt, create derivative works of, distribute, sell, sublicense or transfer the Product, or provide access to the Product or Licensee’s JetBrains Account to a third party;
+        (iii) Reverse-engineer, decompile, disassemble, modify, or translate the Product, or make any attempt to discover the source code of the Product;
+        (iv) Remove or obscure any proprietary or other notices contained in the Product.
   .
   3.3. Following the expiration of this Agreement, the license rights in Section 3.2(A) shall continue on a perpetual, royalty-free, limited, non-exclusive, and non-transferable basis for the continued use of a Fallback Version of each Product covered by the Toolbox Subscription. The rights granted in this Section 3.3 are expressly contingent upon Licensee having paid in full the applicable Toolbox Subscription fees for the preceding 12 months or longer without interruption. The limitations set forth in clause 3.2.B of this Agreement apply to the usage of the Fallback Version. The parties agree that upon expiration of this Agreement and Licensee’s continued use of the Fallback Version, the provisions identified in Section 12.5 shall continue to apply to Licensee.
   .
@@ -104,9 +104,9 @@ License: custom
   5.2. Licensee and its Users may use JBA in accordance with its documentation. Licensee and its Users are solely responsible for the accuracy of any information provided via and any action taken through JBA.
   .
   5.3. Licensee may enable Users to access Products in one of the following ways:
-  	(A) By sending an invitation from Licensee’s JBA to a User JBA. Licensee acknowledges that Product will periodically connect from a User Client to JetBrains’ servers via the Internet to confirm User’s right to use Product;
-  	(B) By generating an offline activation code in Licensee’s JBA and providing it to the User for offline Product activation. It is Licensee’s responsibility to generate a new activation code and apply it to the Product registration screen every time changes are made to the license assignment or Toolbox Subscription plan, as well as whenever a subscription is renewed;
-  	(C) Via a server application located on Licensee’s premises that enables access to the Product from Clients that are within Licensee’s local area network (“License Server”). The License Server option may be provided to Licensee at the sole discretion of JetBrains.
+     (A) By sending an invitation from Licensee’s JBA to a User JBA. Licensee acknowledges that Product will periodically connect from a User Client to JetBrains’ servers via the Internet to confirm User’s right to use Product;
+     (B) By generating an offline activation code in Licensee’s JBA and providing it to the User for offline Product activation. It is Licensee’s responsibility to generate a new activation code and apply it to the Product registration screen every time changes are made to the license assignment or Toolbox Subscription plan, as well as whenever a subscription is renewed;
+     (C) Via a server application located on Licensee’s premises that enables access to the Product from Clients that are within Licensee’s local area network (“License Server”). The License Server option may be provided to Licensee at the sole discretion of JetBrains.
   .
   6. FEES
   Licensee must pay Toolbox Subscription fees in accordance with the JetBrains Terms of Purchase or reseller’s terms of purchase, whichever is applicable. If Licensee fails to make the timely payment of Toolbox Subscription fees, this Agreement will be terminated and Licensee may not use Products except as set forth in Section 3.3 of this Agreement.
@@ -132,9 +132,9 @@ License: custom
   11. DISCLAIMER OF DAMAGES
   .
   11.1. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL JETBRAINS (OR ITS AFFILIATES, AGENTS, DIRECTORS, OR EMPLOYEES), OR JETBRAINS’ LICENSORS, SUPPLIERS OR RESELLERS BE LIABLE TO LICENSEE OR ANYONE ELSE FOR:
-  	(A) ANY LOSS OF USE, DATA, GOODWILL, OR PROFITS, WHETHER OR NOT FORESEEABLE;
-  	(B) ANY LOSS OR DAMAGES IN CONNECTION WITH TERMINATION OR SUSPENSION OF LICENSEE’S ACCESS TO OUR PRODUCTS IN ACCORDANCE WITH THIS AGREEMENT, AND 
-  	(C) ANY SPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL, EXEMPLARY OR PUNITIVE DAMAGES WHATSOEVER (EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF THESE DAMAGES), INCLUDING THOSE (X) RESULTING FROM LOSS OF USE, DATA, OR PROFITS, WHETHER OR NOT FORESEEABLE, (Y) BASED ON ANY THEORY OF LIABILITY, INCLUDING BREACH OF CONTRACT OR WARRANTY, STRICT LIABILITY, NEGLIGENCE OR OTHER TORTIOUS ACTION, OR (Z) ARISING FROM ANY OTHER CLAIM ARISING OUT OF OR IN CONNECTION WITH LICENSEE’S USE OF OR ACCESS TO THE SERVICES OR SOFTWARE. THE FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION.
+     (A) ANY LOSS OF USE, DATA, GOODWILL, OR PROFITS, WHETHER OR NOT FORESEEABLE;
+     (B) ANY LOSS OR DAMAGES IN CONNECTION WITH TERMINATION OR SUSPENSION OF LICENSEE’S ACCESS TO OUR PRODUCTS IN ACCORDANCE WITH THIS AGREEMENT, AND 
+     (C) ANY SPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL, EXEMPLARY OR PUNITIVE DAMAGES WHATSOEVER (EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF THESE DAMAGES), INCLUDING THOSE (X) RESULTING FROM LOSS OF USE, DATA, OR PROFITS, WHETHER OR NOT FORESEEABLE, (Y) BASED ON ANY THEORY OF LIABILITY, INCLUDING BREACH OF CONTRACT OR WARRANTY, STRICT LIABILITY, NEGLIGENCE OR OTHER TORTIOUS ACTION, OR (Z) ARISING FROM ANY OTHER CLAIM ARISING OUT OF OR IN CONNECTION WITH LICENSEE’S USE OF OR ACCESS TO THE SERVICES OR SOFTWARE. THE FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION.
   .
   11.2. OUR TOTAL LIABILITY IN ANY MATTER ARISING OUT OF OR RELATED TO THIS AGREEMENT IS LIMITED TO ONE HUNDRED (100) US DOLLARS OR THE AGGREGATE AMOUNT THAT LICENSEE PAID FOR PRODUCTS DURING THE THREE-MONTH PERIOD PRECEDING THE EVENT GIVING RISE TO THE LIABILITY, WHICHEVER IS LARGER. THIS LIMITATION WILL APPLY EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF THE LIABILITY EX- CEEDING THE AMOUNT AND NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
   .
@@ -145,13 +145,13 @@ License: custom
   12.2. Licensee may terminate this Agreement at any time by cancelling a subscription via JetBrains Account. If such termination occurs during a then-current subscription period, this Agreement will continue to be effective until the end of that subscription period. Such termination does not relieve Licensee of the obligation to pay any outstanding subscription fees owed to JetBrains, and no credits or refunds will be issued to Licensee for prepaid subscription fees (except as specified in JetBrains Terms of Purchase, if applicable).
   .
   12.3. JetBrains may terminate this agreement if:
-  	(A) Licensee has materially breached this Agreement and fails to cure such breach within thirty (30) days of written notice thereof;
-  	(B) Licensee fails to make the timely payment of subscription fees;
-  	(C) JetBrains is required to do so by law (for example, where the provision of the JetBrains Toolbox to Licensee is, or becomes, unlawful); or
-  	(D) JetBrains elects to discontinue to provide JetBrains Toolbox, in whole or in part.
+     (A) Licensee has materially breached this Agreement and fails to cure such breach within thirty (30) days of written notice thereof;
+     (B) Licensee fails to make the timely payment of subscription fees;
+     (C) JetBrains is required to do so by law (for example, where the provision of the JetBrains Toolbox to Licensee is, or becomes, unlawful); or
+     (D) JetBrains elects to discontinue to provide JetBrains Toolbox, in whole or in part.
   .
   12.4. JetBrains will make reasonable efforts to notify Licensee via email as follows:
-  	(A) Thirty (30) days prior to termination of the Agreement in the events specified in Clauses 12.3(C) and 12.3 (D) above, and in such events Licensee will be entitled to refund of unused portion of prepaid subscription fees, if applicable; (B) Three (3) days prior to termination of the Agreement in the event specified in Clause 12.3(B), and in such event Licensee will not be entitled to any refund of unused portion of prepaid subscription fees.
+     (A) Thirty (30) days prior to termination of the Agreement in the events specified in Clauses 12.3(C) and 12.3 (D) above, and in such events Licensee will be entitled to refund of unused portion of prepaid subscription fees, if applicable; (B) Three (3) days prior to termination of the Agreement in the event specified in Clause 12.3(B), and in such event Licensee will not be entitled to any refund of unused portion of prepaid subscription fees.
   .
   12.5. Survival. Upon the expiration or termination of this Agreement by Licensee under Section 12.2, and if Licensee elects to use the Fallback Version Licensee subject to Section 3.3 of this Agreement, Sections 3.3, 7, 8, 10 and 11 of this Agreement will survive.
   .
