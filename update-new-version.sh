@@ -26,6 +26,7 @@ main() {
 	"Upstream version $new"
 
     sed -i "s/$old/$new/g" ./debian/preinst
+    sed -i "s/$old/$new/g" ./debian/postinst
 
     debuild -us -uc
 

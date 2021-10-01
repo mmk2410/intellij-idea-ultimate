@@ -5,13 +5,13 @@ set -e
 cd /opt/
 
 ## Extract the package
-sudo tar xf /opt/ideaIU-*
+sudo tar xf /opt/ideaIU-2021.2.2.tar.gz
 
 ## Rename the directory
 sudo mv /opt/idea-IU-* /opt/intellij-idea-ultimate
 
 ## Remove  the tar.gz package
-sudo rm /opt/ideaIU-*
+sudo rm /opt/ideaIU-2021.2.2.tar.gz
 
 ## Install the .desktop file, if necessary
 if [ -x "/usr/bin/desktop-file-install" ]; then
