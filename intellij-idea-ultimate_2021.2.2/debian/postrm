@@ -3,6 +3,6 @@
 set -e
 
 ## Remove the program folder
-sudo rm -rf /opt/intellij-idea-ultimate
+rm -rf /opt/intellij-idea-ultimate
 
 ##DEBHELPER##
