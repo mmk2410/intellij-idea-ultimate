@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2021.3.2-1) impish; urgency=medium
+
+  * Upstream version 2021.3.2
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Sat, 29 Jan 2022 11:16:00 +0000
+
 intellij-idea-ultimate (2021.3.1-1) impish; urgency=medium
 
   * Upstream version 2021.3.1
