@@ -5,6 +5,8 @@ variables:
     PACKAGE: "intellij-idea-ultimate"
     TZ: UTC
     DEBIAN_FRONTEND: noninteractive
+    NAME: "Marcel Kapfer"
+    EMAIL: "opensource@mmk2410.org"
 
 stages:
   - build
@@ -26,6 +28,7 @@ build-job:
     - if: $CI_COMMIT_TAG
 
 deploy-job:
+  image: ubuntu:$UBUNTU_VERSION
   stage: deploy
   script:
     - apt update && apt install -y git devscripts debhelper gnupg
@@ -33,8 +36,12 @@ deploy-job:
     - echo "$GPG_PRIVATE_KEY" | tr -d '\r' | gpg --import -
     - echo "$GPG_PUBLIC_KEY" | tr -d '\r' | gpg --import -
     - cd "$PACKAGE"_"$VERSION" || exit
+    - dch -D $UBUNTU_VERSION -p -l +$UBUNTU_VERSION "Upstream version $VERSION."
     - debuild -S -k6D289F254B41A009B6AB5AC3122720F932D5CE46
     - cd ..
-    - dput ppa:mmk2410/intellij-idea "$PACKAGE"_"$VERSION"-1_source.changes
+    - dput ppa:mmk2410/intellij-idea "$PACKAGE"_"$VERSION"-1+"$UBUNTU_VERSION"1_source.changes
   rules:
     - if: $CI_COMMIT_TAG
+  parallel:
+    matrix:
+      - UBUNTU_VERSION: [trusty, xenial, bionic, focal, kinetic, jammy]
