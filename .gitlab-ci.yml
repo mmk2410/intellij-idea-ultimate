@@ -37,7 +37,7 @@ deploy-job:
     - echo "$GPG_PUBLIC_KEY" | tr -d '\r' | gpg --import -
     - cd "$PACKAGE"_"$VERSION" || exit
     - dch -D $UBUNTU_VERSION -p -l +$UBUNTU_VERSION "Upstream version $VERSION."
-    - debuild -S -k6D289F254B41A009B6AB5AC3122720F932D5CE46
+    - debuild -S -sa -k6D289F254B41A009B6AB5AC3122720F932D5CE46
     - cd ..
     - dput ppa:mmk2410/intellij-idea "$PACKAGE"_"$VERSION"-1+"$UBUNTU_VERSION"1_source.changes
   rules:
