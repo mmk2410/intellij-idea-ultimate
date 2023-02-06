@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2022.3.2-1) jammy; urgency=medium
+
+  * Upstream version 2022.3.2
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Mon, 06 Feb 2023 18:31:28 +0000
+
 intellij-idea-ultimate (2022.3.1-1) jammy; urgency=medium
 
   * Upstream version 2022.3.1
