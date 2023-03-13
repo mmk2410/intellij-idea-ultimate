@@ -1,5 +1,5 @@
 default:
-    image: ubuntu:jammy
+    image: ubuntu:kinetic
 
 variables:
     PACKAGE: "intellij-idea-ultimate"
