@@ -12,7 +12,7 @@ if [[ $? != 0 ]]; then
 fi
 
 PACKAGE="intellij-idea-ultimate"
-DISTRIBUTION="jammy"
+DISTRIBUTION="kinetic"
 
 last_tag=$(git describe --abbrev=0 --tags)
 old="${last_tag#?}"
