@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2023.1-1) kinetic; urgency=medium
+
+  * Upstream version 2023.1
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Fri, 31 Mar 2023 05:01:09 +0000
+
 intellij-idea-ultimate (2022.3.3-1) kinetic; urgency=medium
 
   * Upstream version 2022.3.3
