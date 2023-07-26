@@ -9,8 +9,42 @@ variables:
     EMAIL: "opensource@mmk2410.org"
 
 stages:
+  - autoupdate
   - build
   - deploy
+
+update-job:
+  stage: autoupdate
+  script:
+    ##
+    ## Install necessary packages.
+    ##
+    - apt update && apt install -y git devscripts debhelper libxml2-utils openssh-client
+
+    ##
+    ## Configure SSH key
+    ##
+    - eval $(ssh-agent -s)
+    - chmod 400 "$SSH_PRIVATE_KEY"
+    - ssh-add "$SSH_PRIVATE_KEY"
+    - mkdir ~/.ssh
+    - chmod 700 ~/.ssh
+    - cp "$SSH_KNOWN_HOSTS" ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+
+    ##
+    ## Configure Git setup
+    ##
+    - git config user.name "$NAME"
+    - git config user.email "$EMAIL"
+    - git remote set-url origin "$GIT_URL"
+
+    ##
+    ## Run autoupdate script which handles everything else.
+    ##
+    - ./autoupdate.sh
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
 
 build-job:
   stage: build
