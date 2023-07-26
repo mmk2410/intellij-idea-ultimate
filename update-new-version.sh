@@ -63,5 +63,5 @@ git switch main
 git merge --ff-only version-"$new"
 git push origin main
 
-git tag -a v"$new" "Upstream version $new"
+git tag -a v"$new" -m "Upstream version $new"
 git push --tags origin main
