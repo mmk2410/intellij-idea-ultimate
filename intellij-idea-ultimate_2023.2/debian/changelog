@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2023.2-1) lunar; urgency=medium
+
+  * Upstream version 2023.2
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Wed, 26 Jul 2023 18:07:24 +0000
+
 intellij-idea-ultimate (2023.1.4-1) lunar; urgency=medium
 
   * Upstream version 2023.1.4
