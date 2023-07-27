@@ -1,10 +1,9 @@
 default:
-    image: ubuntu:lunar
+    image: registry.gitlab.com/mmk2410/intellij-idea-pkg-image:lunar
 
 variables:
     PACKAGE: "intellij-idea-ultimate"
     TZ: UTC
-    DEBIAN_FRONTEND: noninteractive
     NAME: "Marcel Kapfer"
     EMAIL: "opensource@mmk2410.org"
 
@@ -16,11 +15,6 @@ stages:
 update-job:
   stage: autoupdate
   script:
-    ##
-    ## Install necessary packages.
-    ##
-    - apt update && apt install -y git devscripts debhelper libxml2-utils openssh-client
-
     ##
     ## Configure SSH key
     ##
@@ -49,7 +43,6 @@ update-job:
 build-job:
   stage: build
   script:
-    - apt update && apt install -y git devscripts debhelper
     - export VERSION=$(git describe --abbrev=0 --tags | cut -d'v' -f2)
     - cd "$PACKAGE"_"$VERSION" || exit
     - debuild -us -uc
@@ -62,10 +55,9 @@ build-job:
     - if: $CI_COMMIT_TAG
 
 deploy-job:
-  image: ubuntu:$UBUNTU_VERSION
+  image: registry.gitlab.com/mmk2410/intellij-idea-pkg-image:$UBUNTU_VERSION
   stage: deploy
   script:
-    - apt update && apt install -y git devscripts debhelper gnupg
     - export VERSION=$(git describe --abbrev=0 --tags | cut -d'v' -f2)
     - echo "$GPG_PRIVATE_KEY" | tr -d '\r' | gpg --import -
     - echo "$GPG_PUBLIC_KEY" | tr -d '\r' | gpg --import -
