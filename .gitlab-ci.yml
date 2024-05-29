@@ -1,5 +1,5 @@
 default:
-    image: registry.gitlab.com/mmk2410/intellij-idea-pkg-image:lunar
+    image: registry.gitlab.com/mmk2410/intellij-idea-pkg-image:noble
 
 variables:
     PACKAGE: "intellij-idea-ultimate"
@@ -70,4 +70,4 @@ deploy-job:
     - if: $CI_COMMIT_TAG
   parallel:
     matrix:
-      - UBUNTU_VERSION: [trusty, xenial, bionic, focal, jammy, lunar]
+      - UBUNTU_VERSION: [trusty, xenial, bionic, focal, jammy, mantic, noble]
