@@ -70,4 +70,4 @@ deploy-job:
     - if: $CI_COMMIT_TAG
   parallel:
     matrix:
-      - UBUNTU_VERSION: [trusty, xenial, bionic, focal, jammy, mantic, noble]
+      - UBUNTU_VERSION: [trusty, xenial, bionic, focal, jammy, noble]
