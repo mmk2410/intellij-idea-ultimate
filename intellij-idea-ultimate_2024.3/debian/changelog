@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2024.3-1) noble; urgency=medium
+
+  * Upstream version 2024.3
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Wed, 13 Nov 2024 14:02:09 +0000
+
 intellij-idea-ultimate (2024.2.4-1) noble; urgency=medium
 
   * Upstream version 2024.2.4
