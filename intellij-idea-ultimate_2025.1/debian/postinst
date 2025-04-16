@@ -5,13 +5,13 @@ set -e
 cd /opt/
 
 ## Extract the package
-tar xf /opt/ideaIU-2024.3.5.tar.gz
+tar xf /opt/ideaIU-2025.1.tar.gz
 
 ## Rename the directory
 mv /opt/idea-IU-* /opt/intellij-idea-ultimate
 
 ## Remove  the tar.gz package
-rm /opt/ideaIU-2024.3.5.tar.gz
+rm /opt/ideaIU-2025.1.tar.gz
 
 ## Install the .desktop file, if necessary
 if [ -x "/usr/bin/desktop-file-install" ]; then
