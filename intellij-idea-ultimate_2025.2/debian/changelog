@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2025.2-1) oracular; urgency=medium
+
+  * Upstream version 2025.2
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Tue, 05 Aug 2025 13:04:59 +0000
+
 intellij-idea-ultimate (2025.1.4.1-1) oracular; urgency=medium
 
   * Upstream version 2025.1.4.1
