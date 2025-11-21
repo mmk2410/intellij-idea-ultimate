@@ -1,3 +1,9 @@
+intellij-idea-ultimate (2025.2.5-1) questing; urgency=medium
+
+  * Upstream version 2025.2.5
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Fri, 21 Nov 2025 14:04:13 +0000
+
 intellij-idea-ultimate (2025.2.4-1) oracular; urgency=medium
 
   * Upstream version 2025.2.4
