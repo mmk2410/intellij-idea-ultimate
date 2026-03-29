@@ -1,5 +1,7 @@
 # intellij-idea-ultimate
 
+**As of 2026-03-28, this project is no longer maintained. Read [my announcement](https://mmk2410.org/2026/03/28/future-of-my-intellij-idea-ubuntu-packages) for more information.**
+
 Debian packages of IntelliJ IDEA Ultimate Edition for Ubuntu / Debian.
 
 I also provide a package for the [Community Edition](https://gitlab.com/mmk2410/intellij-idea-community).
